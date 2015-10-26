@@ -1,9 +1,19 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        
-    </head>
+<html ng-app="myFirstApp">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <head></head>
         <body>
             <h1>Hello world angular</h1>
+            <div ng-controller="myFirstCtr">
+                <h1>MY FIRST NOTE</h1>
+                <p><textarea ng-model="message" cols="40" rows="10"> </textarea></p>
+                <p>
+                    <button ng-click="save()">Save</button>
+                    <button ng-click="clear()">Clear</button>
+                </p>
+                <p>Number of caracters left: <span ng-bind="left()"></span></p>
+            </div>
+            <script src="myFirstApp.js"></script>
+            <script src="myFirstCtr.js"></script>
         </body>
 </html>
