@@ -6,3 +6,6 @@ git branch -d feature_x #borra una rama
 git pull #Para actualizar tu repositorio local al commit más nuevo
 git merge <branch> #Para fusionar otra rama a tu rama activa
 git diff <source_branch> <target_branch> #Antes de fusionar los cambios, puedes revisar
+
+
+clave de lu mion : pc score-game
