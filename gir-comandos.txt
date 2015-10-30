@@ -1,2 +1,8 @@
+#TUTORIAL RAPIDO DE GIT link: http://rogerdudler.github.io/git-guide/index.es.html
 
 git checkout master1 #cambiar de rama
+git checkout -b feature_x # crear una rama
+git branch -d feature_x #borra una rama
+git pull #Para actualizar tu repositorio local al commit más nuevo
+git merge <branch> #Para fusionar otra rama a tu rama activa
+git diff <source_branch> <target_branch> #Antes de fusionar los cambios, puedes revisar
